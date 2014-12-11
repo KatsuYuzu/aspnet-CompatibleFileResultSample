@@ -4,7 +4,7 @@ aspnet-CompatibleFileResultSample
 ASP.NET MVC の FileResult をレガシーブラウザでダウンロードするときのサンプルです。
 IE8 以下のいくつかの不具合を回避しています。
 
-- [CompatibleFileResultAttribute.cs](aspnet-CompatibleFileResultSample/src/WebApplication/Controllers/CompatibleFileResultAttribute.cs)
+- [CompatibleFileResultAttribute.cs](/src/WebApplication/Controllers/CompatibleFileResultAttribute.cs)
 
 ```csharp
 // ####################
@@ -36,7 +36,7 @@ if (!string.IsNullOrEmpty(contentDisposition))
 }
 ```
 
-- [HomeController.cs](aspnet-CompatibleFileResultSample/src/WebApplication/Controllers/HomeController.cs)
+- [HomeController.cs](/src/WebApplication/Controllers/HomeController.cs)
 
 ```csharp
 [CompatibleFileResultAttribute]
