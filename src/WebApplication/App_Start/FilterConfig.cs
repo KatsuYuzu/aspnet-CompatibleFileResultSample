@@ -1,4 +1,4 @@
-﻿using System.Web;
+﻿using SwissKnife.Mvc;
 using System.Web.Mvc;
 
 namespace WebApplication
@@ -8,6 +8,7 @@ namespace WebApplication
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
+            filters.Add(new NoClientCacheAttribute());
         }
     }
 }
