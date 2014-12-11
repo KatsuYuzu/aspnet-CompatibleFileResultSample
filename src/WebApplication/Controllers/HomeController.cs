@@ -9,6 +9,7 @@ namespace WebApplication.Controllers
             return View();
         }
 
+        [CompatibleFileResultAttribute]
         public ActionResult File(string name)
         {
             var fileName = Server.MapPath(@"~/App_Data/sample.txt");
