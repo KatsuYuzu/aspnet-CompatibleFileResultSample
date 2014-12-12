@@ -43,11 +43,9 @@ if (!string.IsNullOrEmpty(contentDisposition))
 public ActionResult File(string id)
 ```
 
-参照
-----
-- [SSL(HTTPS)でファイルのダウンロードができない場合 - [PHP + PHP] ぺんたん info](http://pentan.info/php/ssl_dl_error.html)
-- [ファイルダウンロード時のファイル名が文字化けする対処法 - [PHP + PHP] ぺんたん info](http://pentan.info/php/content_disposition_filename.html)
-- [久しぶりの技術ネタ。HTTPレスポンスヘッダの[Content-Disposition]について、Safariでの日本語文字化け対策など。 - maachangの日記](http://d.hatena.ne.jp/maachang/20110730/1312008966)
+詳細はこちらへ
+- [commit ActionResult のレガシーブラウザ互換対応](https://github.com/KatsuYuzu/aspnet-CompatibleFileResultSample/commit/07e218edfb7d6ed59459b11f55494ac86d03f594)
+- [ASP.NET MVC の ActionFilter でレガシー IE でのファイルダウンロードの文字化け、不具合と戦う #aspnetjp - KatsuYuzuのブログ](http://katsuyuzu.hatenablog.jp/entry/2014/12/12/131754)
 
 License
 -------
